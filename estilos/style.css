@@ -9,18 +9,23 @@
 #app {
   display: grid;
   grid-template-columns: 50% 50%;
-
   height: 100vh;
+  background: url(../imagens/Background.svg) no-repeat;
+  background-repeat: no-repeat;
+  
 }
 
+
+
 body {
-  background-color: #1e1e1e;
   font-family: Arial, sans-serif;
+  background-color: var(--shape-background);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  
 }
 
 
