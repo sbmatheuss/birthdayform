@@ -1,7 +1,30 @@
+@import url(global.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  height: 100vh;
+}
+
 body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main-container {
+  overflow: auto;
   background-color: gray;
 }
 
-.container {
-  width: 40%;
-}
