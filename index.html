@@ -7,71 +7,63 @@
   <title>birthday</title>
 </head>
 <body>
-      <div id="app">
-        <div class="container">
-          <div class="form-logo">
-            <img src="imagens/Logo (1).svg" alt="logo de aniversário">
-            <h1>Festivite</h1>
-            <p>Crie um convite digital para o seu evento</p>
-          </div>
-          
-        </div>
-        
-            <div class="main-container">
-        <div class="form">
-              <form action="#">
-                <div class="form-header">
-                  <div class="title">
-                    <h1>Crie Seu Convite</h1>
-                  </div>
-                </div>
-                  <div class="input-group">
-                      <input type="date" name="calendario" id="calendario">
-                      <label for="calendario">Sobre o evento</label>
-                    <div class="title">
-                      <label for="name">Título</label>
-                      <input type="text" name="name" id="name" placeholder="Nome do evento" required>
-                      <label for="name"></label>
-                    </div>
-                    <div class="start">
-                      <label for="data">Inicio</label>
-                      <input type="datetime-local" name="data" id="data" required>
-                    </div>
-                    <div class="end">
-                      <label for="date">Fim</label>
-                      <input type="datetime-local" name="date" id="date">
-                    </div>
-                    <div class="option">
-                      <label for="botao">Tipo</label>
-                      <input type="button" id="botao" value="Presencial" required>
-                      <input type="button"  id="botao" value="Online" required >
-                    </div>
-                    <div class="local">
-                      <label for="location">Local</label>
-                      <input type="url" name="location" id="location" placeholder="Link ou endereço" required>
-                    </div>
-                    <div class="descrition">
-                      <label for="descricao">Descrição</label>
-                      <input type="search" name="descricao" id="descricao" placeholder="Escreva sobre os detalhes">
-                    </div>
-                    <div class="person">
-                      <img src="icons/paintbrush-vertical.svg" alt="pincel de pintura">
-                      <label for="cor">Personalização</label>
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                      <input type="color" name="cor" id="cor">
-                    </div>
-                </div>
-            </div>
-            </div>
+    <div class="container">
+    <!-- Coluna esquerda -->
+    <div class="coluna-esquerda">
+      <div class="branding">
+        <img src="imagens/Logo (1).svg" alt="Logo" class="logo" />
+        <h1>Festivite</h1>
+        <p>Crie um convite digital para o seu evento</p>
       </div>
+      <img src="imagens/Background.svg" alt="Bolo de aniversário" class="bolo" />
+    </div>
+
+    <!-- Coluna direita -->
+    <div class="coluna-direita">
+      <form class="formulario">
+        <h2>Crie seu convite</h2>
+
+        <section class="grupo">
+          <label>📅 <strong>Sobre o evento</strong></label>
+
+          <label>Título</label>
+          <input type="text" placeholder="Nome do evento" />
+
+          <div class="duplo">
+            <div>
+              <label>Início</label>
+              <input type="datetime-local" />
+            </div>
+            <div>
+              <label>Fim</label>
+              <input type="datetime-local" />
+            </div>
+          </div>
+
+          <div class="duplo">
+            <div>
+              <label>Tipo</label>
+              <div class="opcoes">
+                <button type="button" class="ativo">Presencial</button>
+                <button type="button">Online</button>
+              </div>
+            </div>
+            <div>
+              <label>Local</label>
+              <input type="text" placeholder="Link ou endereço" />
+            </div>
+          </div>
+
+          <label>Descrição</label>
+          <textarea placeholder="Escreva sobre os detalhes do evento"></textarea>
+        </section>
+
+        <section>
+          <label>🎨 <strong>Personalização</strong></label>
+          <!-- Aqui entraria o seletor de cores, etc -->
+        </section>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
