@@ -12,9 +12,56 @@ body {
   color: white;
 }
 
+.container {
+  display: flex;
+  height: 100vh;
+}
 
+.coluna-esquerda {
+  display: flex;
+  flex: 1;
+  gap: 60px
+}
 
+.coluna-direita {
+  display: flex;
+  flex: 1;
+}
 
+.branding {
+      position: absolute;
+      top: 42px;
+      left: 28px;
+      padding: 10px 15px;
+      color: white;
+}
+
+h1 {
+      position: absolute;
+      top: 114px;
+      left: 20px;
+      padding: 10px 15px;
+      color: var(--text-color);
+      
+}
+
+p {
+      margin-top: 166px;
+      margin-left: 16px;
+      padding: 5px;
+}
+
+.log {
+    position: absolute;
+      top: 4px;
+      left: 24px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+}
 
 
 
