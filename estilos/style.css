@@ -41,14 +41,18 @@ h1 {
       top: 114px;
       left: 20px;
       padding: 10px 15px;
-      color: var(--text-color);
-      
+      color: #FF598B;
+      font-family: 'Leckerli One'; 
+      font-size: 40px;
 }
 
 p {
       margin-top: 166px;
       margin-left: 16px;
       padding: 5px;
+      font-family: 'Open Sans';
+      font-size: 16px;
+      color: var(--text-heading);
 }
 
 .log {
