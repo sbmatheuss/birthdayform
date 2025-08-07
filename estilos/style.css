@@ -92,6 +92,8 @@ p {
   margin-top: 24px;
   margin-left: 6px;
   color: var(--input-placeholder);
+  font-family: 'Open Sans';
+  font-size: 18px;
 }
 
 #event {
@@ -134,6 +136,8 @@ p {
   margin-left: 6px;
   display: flex;
   color: var(--input-placeholder);
+  font-family: 'Open Sans';
+  font-size: 18px;
 }
 
 .coluna1 {
@@ -142,6 +146,12 @@ p {
   flex: 2;
   margin-top: 20px;
   color: var(--input-placeholder);
+}
+
+.tipo {
+  font-family: 'Open Sans';
+  font-size: 18px;
+
 }
 
 .coluna2 {
@@ -158,6 +168,12 @@ p {
   
 }
 
+.icon {
+  height: 18px;
+  width: 18px;
+  margin-right: 12px;
+}
+
 .ativo {
   width: 129px;
   height: 40px;
@@ -165,6 +181,7 @@ p {
   background-color: #1C1F21;
   border: 2px solid var(--input-stroke);
   color: var(--input-placeholder);
+  text-align: center;
 }
 
 .on {
@@ -178,6 +195,8 @@ p {
 
 .local {
   margin-left: 6px;
+  font-family: 'Open Sans';
+  font-size: 18px;
 }
 
 .adress {
@@ -191,9 +210,11 @@ p {
 }
 
 .descrition {
-  margin-top: 10px;
-  margin-left: 4px;
-  color: var(--input-placeholder);;
+  margin-top: 16px;
+  margin-left: 6px;
+  color: var(--input-placeholder);
+  font-family: 'Open Sans';
+  font-size: 18px;
 }
 
 
