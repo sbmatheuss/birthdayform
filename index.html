@@ -28,40 +28,40 @@
     <!-- Coluna direita -->
     <div class="coluna-direita">
       <form class="formulario">
-        <h2>Crie seu convite</h2>
+        <h2 class="title1">Crie seu convite</h2>
 
         <section class="grupo">
-          <label> <img src="icons/calendar.svg" alt="calendario"> <strong>Sobre o evento</strong></label>
+          <label class="evento"> <img src="icons/calendar.svg" alt="calendario"> <strong id="event">Sobre o evento</strong></label>
 
-          <label>Título</label>
-          <input type="text" placeholder="Nome do evento" />
+          <label class="title2">Título</label>
+          <input class="two" type="text" id="title2" placeholder="  Nome do evento" /> 
 
           <div class="duplo">
             <div>
-              <label>Início</label>
-              <input type="datetime-local" />
+              <label class="start">Início</label>
+              <input class="location" type="datetime-local" />
             </div>
             <div>
-              <label>Fim</label>
-              <input type="datetime-local" />
+              <label class="start">Fim</label>
+              <input class="location" type="datetime-local"/>
             </div>
           </div>
 
           <div class="duplo">
-            <div>
-              <label>Tipo</label>
+            <div class="coluna1">
+              <label class="tipo">Tipo</label>
               <div class="opcoes">
                 <button type="button" class="ativo">Presencial</button>
-                <button type="button">Online</button>
+                <button type="button" class="on">Online</button>
               </div>
             </div>
-            <div>
-              <label>Local</label>
-              <input type="text" placeholder="Link ou endereço" />
+            <div class="coluna2">
+              <label class="local">Local</label>
+              <input class="adress" type="text" placeholder="  Link ou endereço" />
             </div>
           </div>
 
-          <label>Descrição</label>
+          <label class="descrition">Descrição</label>
           <textarea placeholder="Escreva sobre os detalhes do evento"></textarea>
         </section>
 

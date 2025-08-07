@@ -67,5 +67,153 @@ p {
       gap: 10px;
 }
 
+.grupo {
+  display: grid;
+  grid-template-columns: min-content;
+  padding-top: 26px;
+  margin: 6px;
+}
+
+.evento {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  padding-top: 18px;
+}
+
+.title1 {
+  display: block;
+  margin-top: 80px;
+  
+}
+
+.title2 {
+  display: block;
+  margin-top: 24px;
+  margin-left: 6px;
+  color: var(--input-placeholder);
+}
+
+#event {
+  padding-left: 12px;
+  
+}
+
+.two {
+  margin-top: 10px;
+  border: 2px solid var(--input-stroke);
+  border-radius: 10px;
+  background-color:#1C1F21;
+  width: 560px;
+  height: 44px;
+  color: var(--input-placeholder);
+  
+}
+
+.duplo {
+  display: flex;
+  gap: 20px;
+  color: var(--input-placeholder);
+  
+}
+
+.location {
+  display: flex;
+  margin-top:  10px;
+  padding: 16px;
+  width: 268px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #1C1F21;
+  border: 2px solid var(--input-stroke);
+  color: var(--input-placeholder);
+}
+
+.start {
+  padding-top: 20px;
+  margin-left: 6px;
+  display: flex;
+  color: var(--input-placeholder);
+}
+
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin-top: 20px;
+  color: var(--input-placeholder);
+}
+
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin-top: 20px;
+  color: var(--input-placeholder);
+}
+
+.opcoes {
+  margin-top: 10px;
+  margin-left: 4px;
+  
+}
+
+.ativo {
+  width: 129px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #1C1F21;
+  border: 2px solid var(--input-stroke);
+  color: var(--input-placeholder);
+}
+
+.on {
+  width: 129px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #1C1F21;
+  border: 2px solid var(--input-stroke);
+  color: var(--input-placeholder);
+}
+
+.local {
+  margin-left: 6px;
+}
+
+.adress {
+  margin-top: 10px;
+  width: 268px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #1C1F21;
+  border: 2px solid var(--input-stroke);
+  
+}
+
+.descrition {
+  margin-top: 10px;
+  margin-left: 4px;
+  color: var(--input-placeholder);;
+}
+
+
+textarea {
+  width: 560px;
+  height: 136px;
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #1C1F21;
+  border: 2px solid var(--input-stroke);
+}
+
+
+
+
+
+
+
+
+
 
 
