@@ -154,6 +154,8 @@ p {
 
 }
 
+
+
 .coluna2 {
   display: flex;
   flex-direction: column;
@@ -170,8 +172,9 @@ p {
 
 .icon {
   height: 18px;
-  width: 18px;
-  margin-right: 12px;
+  width: 17px;
+  margin-right: 5px;
+  margin-bottom: -3px;
 }
 
 .ativo {
@@ -181,7 +184,7 @@ p {
   background-color: #1C1F21;
   border: 2px solid var(--input-stroke);
   color: var(--input-placeholder);
-  text-align: center;
+  
 }
 
 .on {
@@ -228,9 +231,15 @@ textarea {
   border: 2px solid var(--input-stroke);
 }
 
+.personalizacao {
+  margin-top: 20px;
+  padding-top: 6px;
+  
+}
 
-
-
+#person {
+  text-align: center;
+}
 
 
 
