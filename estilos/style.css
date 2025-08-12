@@ -271,6 +271,7 @@ textarea {
 .color-picker {
   display: flex;
   gap: 10px;
+  margin-bottom: 28px;
 }
 
     .color-option {
@@ -304,6 +305,45 @@ textarea {
     .c11 { background-color: #5ee2e2; }
 
 
+  .tme {
+    margin-left: 14px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-heading);
+
+  }
+
+.tema {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  
+}
+
+.niver {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--input-stroke);
+  border-radius: 5%; 
+  background-color: var(--input-stroke);
+  padding-bottom: 20px;
+  text-align: center;
+  width: 10rem;
+  gap: 1.5rem;
+}
+
+.infantil {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--input-stroke);
+  border-radius: 5%; 
+  background-color: var(--input-stroke);
+  padding-bottom: 20px;
+  text-align: center;
+  width: 10rem;
+  gap: 1.5rem;
+}
 
 
 
