@@ -314,13 +314,19 @@ textarea {
 
   }
 
+  .container2 {
+    display: grid;
+    gap: 2px;
+    margin-bottom: -64px;
+  }
+
 .tema {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 110px 110px 110px 110px;
   margin-top: 24px;
-  gap: 20px;
-
+  gap: 14px;
+  
 }
 
 .destaques {
@@ -329,9 +335,27 @@ textarea {
     border: 2px solid var(--input-stroke);
     border-radius: 5%;
     background-color: var(--input-stroke);
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: 14px;
     
+}
+
+.title3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 20px;
+}
+
+.estilo {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
 }
 
 
 
 
+.selecionar {
+  margin-left: 162px;
+}
