@@ -315,35 +315,23 @@ textarea {
   }
 
 .tema {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 110px 110px 110px 110px;
   margin-top: 24px;
-  
+  gap: 20px;
+
 }
 
-.niver {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid var(--input-stroke);
-  border-radius: 5%; 
-  background-color: var(--input-stroke);
-  padding-bottom: 20px;
-  text-align: center;
-  width: 10rem;
-  gap: 1.5rem;
+.destaques {
+    display: grid;
+    text-align: center;
+    border: 2px solid var(--input-stroke);
+    border-radius: 5%;
+    background-color: var(--input-stroke);
+    
 }
 
-.infantil {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid var(--input-stroke);
-  border-radius: 5%; 
-  background-color: var(--input-stroke);
-  padding-bottom: 20px;
-  text-align: center;
-  width: 10rem;
-  gap: 1.5rem;
-}
 
 
 
