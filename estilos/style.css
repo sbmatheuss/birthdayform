@@ -345,18 +345,43 @@ textarea {
   display: grid;
   grid-template-columns: auto auto;
   margin-bottom: 20px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: var(--input-placeholder);
 }
 
-.estilo {
+.container3 {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 40px;
+  gap: 18px;
+}
+
+.switch {
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+
+#dark {
+  margin-left: -80px;
+  padding-top: 6px;
+  text-align: left;
+  font-family: 'Open Sans';
+  color: var(--input-placeholder);
 }
 
 
 
-
-
-.selecionar {
-  margin-left: 162px;
+.upload {
+  border: 2px solid var(--input-stroke);
+  border-radius: 10px;
+  width: 140px;
+  background-color: var(--input-stroke);
 }
+
+.vector {
+  margin-left: 4px;
+  height: 20px;
+  width: 30px;
+}
+
